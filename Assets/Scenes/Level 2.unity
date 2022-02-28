@@ -2794,7 +2794,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4995861351212703846, guid: 602bbffa22e5623439149084d0b06593, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 602bbffa22e5623439149084d0b06593, type: 3}
 --- !u!1 &866747139 stripped
 GameObject:
@@ -2811,7 +2812,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -5680,5 +5681,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4995861351212703846, guid: 602bbffa22e5623439149084d0b06593, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 602bbffa22e5623439149084d0b06593, type: 3}

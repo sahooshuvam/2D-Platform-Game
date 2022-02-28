@@ -6,9 +6,11 @@ public class CoinCollection : MonoBehaviour
 {
     ScoreManager score;
     private void OnTriggerEnter2D(Collider2D collision)
-    {
-        Destroy(gameObject);
-        score = GameObject.Find("ScoreManager").GetComponent<ScoreManager>();
-        score.ScoreCalculator(10);
+    {        
+            Destroy(gameObject);
+            score = GameObject.Find("ScoreManager").GetComponent<ScoreManager>();
+            score.ScoreCalculator(10);
+            
     }
 }
+
